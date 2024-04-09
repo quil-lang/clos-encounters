@@ -43,3 +43,15 @@ A system including a few common OOP Patterns.
 ;; Abstract class ARISTOTELIAN-ESPRESSO cannot be instantiated
 ;;      [Condition of type SIMPLE-ERROR]
 ```
+
+
+# Why?
+
+This is a duplicate of a subset of of the functionality exposed in
+[tfeb-lis-hax](https://github.com/tfeb/tfeb-lisp-hax). We reimplement
+it here because `tfeb`'s library makes a decision to lazy load the
+`closer-mop` system dependency in a way that does not agree with the
+build process of [quilc](https://github.com/quil-lang/quilc) and
+[qvm](https://github.com/quil-lang/qvm).  See [this
+issue](https://github.com/quil-lang/quilc/issues/917) for context.
+
