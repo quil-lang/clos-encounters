@@ -1,4 +1,4 @@
-# `CLOS-ENECOUNTERS`
+# `CLOS-ENCOUNTERS`
 
 A system including a few common OOP Patterns. 
 
